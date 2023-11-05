@@ -198,7 +198,7 @@ body{
     font-weight: 400;
     line-height: 24px; 
     letter-spacing: -0.252px;
-    padding: 0 0 60px 0;
+    padding:  60px ;
 }
 .project_icon{
     width: 18px;
@@ -207,7 +207,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 48px;
+    gap: 18px;
     padding: 15px;
 }
 .project_card{
@@ -218,8 +218,8 @@ body{
     height: 550px;
     border-radius: 10px;
     list-style: none;
-    padding: 15px;
-    gap: 200px;
+    padding: 24px;
+    gap: 180px;
 }
 .project_card2{
     background: #393939;
@@ -234,6 +234,17 @@ body{
     max-width: 400px;
     height: 150px;
     border-radius: 10px;
+}
+.project_card3{
+    display: flex;
+    flex-direction: column;
+    background: #393939;
+    max-width: 392px;
+    height: 550px;
+    border-radius: 10px;
+    list-style: none;
+    padding: 15px;
+    gap: 165px;
 }
 .card_title{
     background: #393939;
@@ -301,9 +312,27 @@ body{
    .project_card{
     gap: 115px;
     }
-    .card_text3{
-        padding: 0 0 1px;
+    .card_text{
+        font-size: 13px;
     }
+    .card_text2{
+      font-size: 20px;
+    }
+    .card_text3{
+        padding: 0 0 65px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .card_text4{
+        font-size: 14px;
+    }
+    .card_text5{
+        font-size: 14px;
+    }
+    .project_card3{
+        gap: 165px;
+    }
+
 }
 .what_text{
     position: relative;
@@ -459,6 +488,7 @@ padding: 0 15px 40px;
     align-items: center;
     justify-content: space-between;
     padding: 0 15px;
+    max-width: 100%;
 }
 .frame_text{
 color: #FFF;
@@ -493,6 +523,9 @@ padding: 0 15px 40px;
     display: flex;
     justify-content: space-around;
 }
+.seperator{
+    background: #393939;
+}
 @media screen and (max-width:320px) {
     .proces_text{
         font-size: 30px;
@@ -506,7 +539,7 @@ padding: 0 15px 40px;
     align-items: center;
     justify-content: space-around;
     gap: 28px;
-    padding: 15px;
+    padding: 15px 15px 80px ;
 }
 .proces-card{
     background: #393939;
@@ -584,5 +617,62 @@ margin: 0;
     }
 
 }
-
+.have{
+    padding: 15px;
+}
+.have_badgraund{
+    
+    background: #6966FF;
+    max-width: 14400px;
+    border-radius: 20px;
+    padding: 40px 10px;
+}
+.have_pretitle{
+    color:  #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 24px; 
+    letter-spacing: -0.252px;
+}
+.have_text{
+        color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -0.88px;
+}
+.have_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.have_button1{
+    color: #6966FF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.176px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    border-color: #6966FF;
+    
+}
+.have_icon{
+    width: 12px;
+}
+@media screen and (max-width:320px) {
+    .have_text{
+        font-size: 30px;
+    }
+    .have_button1{
+        width: 310px;
+    }
+}
 
