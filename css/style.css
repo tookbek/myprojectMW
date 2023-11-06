@@ -43,7 +43,7 @@ body{
     border-color: #6966FF;
     padding: 12px 16px;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:888px) {
     .header__content_nav-link{
         display: none;
     }
@@ -60,7 +60,7 @@ body{
     .button span{
         display: none;
     }
-}   
+} 
 .hero_content{
     padding: 86px 15px;
 }
@@ -80,6 +80,8 @@ body{
      align-items: center;
      justify-content: space-around;
      padding: 0 0 10px 0 ;
+     
+     
 
 }
 .hero_button{
@@ -87,7 +89,6 @@ body{
     align-items: center;
     justify-content: center;
     gap: 32px;
-    padding: 0;
 }
 .hero-button1{
     width: 200px;
@@ -116,48 +117,40 @@ body{
 .hero_icon{
     width: 12px;
 }
-@media screen and (max-width:656px) {
+@media screen and (max-width:762px) {
     .hero_content_title{
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 @media screen and (max-width:320px) {
     .hero_content_title{
-        font-size: 45px;
-        font-weight: 700;
-        text-align: center;
+        font-size: 30px;
     }
 }
+
 @media screen and (max-width:1024px) {
     .hero_svg2{
         width: 450px;
         
     }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:464px) {
     .hero_button{
         display: grid;
         grid-template-columns: 1fr;
-        gap: 16px;
+        gap: 10px;
+    }
+    .hero-button1 , .hero-button2{
+        width: 300px;
+    }
 
-    }
-}
-@media screen and (max-width:320px) {
-    .hero-button1{
-        width: 310px;
-    }
-}
-@media screen and (max-width:320px) {
-    .hero-button2{
-        width: 310px;
-    }
 }
 .number_title{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 80px;
-    padding: 5px 0 0 0;
+    padding: 5px 56px  0;
 }
 .number_text{
     text-align: center;
@@ -168,13 +161,13 @@ body{
     font-weight: 400;
     line-height: 32px; 
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:610px) {
     .number_title{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
     }
 }
-.project_title{
+ .project_title{
     color:  #FFF;
     text-align: center;
     font-size: 40px;
@@ -303,7 +296,7 @@ body{
 }
 .img_avatar3{
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:1088px) {
     .project_cards{
         display: grid;
         grid-template-columns: 1fr ;
@@ -439,15 +432,21 @@ body{
     padding: 20px 0 0;
 }
 .img {
-    max-width: 300px;
+    max-width: 392px;
     height: 200px;
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:353px) {
     .round_cards{
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
     }
+    .img{
+        width: 300px;
+    }
+}
+.askeds{
+    display: flex;
 }
 .asked_text{
     position: relative;
@@ -500,7 +499,12 @@ font-weight: 450;
 line-height: 24px; 
 letter-spacing: -0.252px;
 }
-.proces_text{
+@media screen and (max-width:481px) {
+    .frame_text{
+        font-size: 15px;
+    }
+}
+ .proces_text{
 color: #FFF;
 text-align: center;
 font-size: 40px;
@@ -526,7 +530,7 @@ padding: 0 15px 40px;
     justify-content: space-around;
 }
 .seperator{
-    background: #393939;
+    width: 100%;
 }
 @media screen and (max-width:320px) {
     .proces_text{
@@ -613,12 +617,17 @@ padding: 10px 0 100px 0;
 margin: 0;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:1095px) {
     .proces_cards{
         display: grid;
         grid-template-columns: 1fr;
     }
 
+}
+@media screen and (max-width:1096px) {
+    .proces-card ,.proces-card2, .proces-card3{
+        max-width: 320px;
+    }
 }
 .have{
     padding: 15px;
@@ -678,7 +687,7 @@ margin: 0;
         width: 310px;
     }
 }
-.footer{
+ .footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -703,11 +712,10 @@ padding: 80px 0 40px;
     text-decoration: none; 
     text-align: center;
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:698px) {
     .footer_nav{
         display: grid;
-        flex-direction: column;
-        align-items: start;
+        grid-template-columns: 1fr;
     }
     .nav-link{
         text-align: start;
@@ -722,6 +730,5 @@ padding: 80px 0 40px;
     .footer_icons{
         text-align: start;
     }
-}
-
+} 
 
